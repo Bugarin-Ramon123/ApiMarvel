@@ -19,6 +19,12 @@ class MainActivityViewModel (application: Application) : AndroidViewModel(applic
     private var isLoadingCharacters = false
     var hasNextCharacters = true
     var hasNextCreators = true
+    var hasNextComics = true
+    var hasNextEvents = true
+    var hasNextSeries = true
+    var hasNextStories = true
+
+
 
 
     val marvelListLiveDataCharacter = MutableLiveData<List<CharacterView>>()
